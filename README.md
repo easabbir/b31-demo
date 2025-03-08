@@ -1,58 +1,91 @@
-
 # Project Title
 
-A brief description of what this project does and who it's for
+This is the repo to learn git.
+Usual commands that can be performed 
+branching concepts
+merging concepts
+etc.
 
+## Getting Started
 
-## Acknowledgements
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+### Prerequisites
 
+What things you need to install the software and how to install them
 
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
+```
+Give examples
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+### Installing
 
-#### Get item
+A step by step series of examples that tell you how to get a development env running
 
-```http
-  GET /api/items/${id}
+Say what the step will be
+
+```
+Give the example
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+And repeat
 
-#### add(num1, num2)
+```
+until finished
+```
 
-Takes two numbers and returns the sum.
+End with an example of getting some data out of the system or using it for a little demo
 
+## Running the tests
 
-## Appendix
+Explain how to run the automated tests for this system
 
-Any additional information goes here
+### Break down into end to end tests
 
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## Features
+## License
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-- login and logout 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
